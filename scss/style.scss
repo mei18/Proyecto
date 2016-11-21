@@ -1,0 +1,85 @@
+@import 'partials/variable';
+
+.header {
+  background-color: $morado;
+  min-height: 747px;
+
+  .text {
+    color: $blanco;
+    padding-top: 25%;
+
+    h1 {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 55px;
+    }
+    p {
+      font-size: 22px;
+      font-weight: 100;
+      padding: 20px 50px;
+    }
+  }
+
+  header {
+    position: absolute;;
+    width: 100%;
+    z-index: 999;
+
+    .first-content {
+      margin: 0 auto;
+    	max-width: 1170px;
+    	padding: 40px 0;
+    	width: 100%;
+    }
+    .logo {
+      float: left;
+    }
+    img{
+      width: 68%
+    }
+    hr {
+      border-color: $mOscuro;
+    }
+  }
+
+  header.fixed {
+    .first-content {
+  		border-bottom: 0;
+  		padding: 25px 0;
+  	}
+  }
+  .nav-toggle {
+    display: none;
+    height: 44px;
+    overflow: hidden;
+    position: fixed;
+    right: 5%;
+    text-indent: 100%;
+    top: 32px;
+    width: 44px;
+  }
+  nav {
+    float: right;
+    li {
+      display: inline-block;
+    }
+    a {
+      margin-left: 40px;
+      color: $blanco;
+      text-transform: uppercase;
+      &:hover,
+  		&.active {
+  			color: $blanco;
+  		}
+    }
+  }
+
+  .find{
+    background-color: $rojo;
+    color: $blanco;
+    margin-top: 35px;
+    padding: 10px 35px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
