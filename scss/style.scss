@@ -2,11 +2,10 @@
 
 .header {
   background-color: $morado;
-  min-height: 747px;
 
   .text {
     color: $blanco;
-    padding-top: 25%;
+    padding-top: 20%;
 
     h1 {
       font-weight: bold;
@@ -21,9 +20,8 @@
   }
 
   header {
-    position: absolute;;
+    position: absolute;
     width: 100%;
-    z-index: 999;
 
     .first-content {
       margin: 0 auto;
@@ -78,8 +76,50 @@
     background-color: $rojo;
     color: $blanco;
     margin-top: 35px;
+    margin-bottom: 100px;
     padding: 10px 35px;
     font-size: 12px;
     text-transform: uppercase;
   }
+} // fin del header
+
+.footer {
+	text-align: center;
+
+  .first-footer {
+    background-color: $mClaro;
+    .sections {
+      padding: 50px 15px 70px 15px;
+      h5 {
+        color: $blanco;
+        text-transform: uppercase;
+      }
+      p {
+        color: $mOscuro;
+      }
+      .social-networks {
+        margin-right: 40px;
+        li {
+          display: inline-flex;
+          padding: 10px 3px;
+        }
+        a{
+          color: $blanco;
+          border-style: solid;
+          padding: 5px 10px;
+        }
+      }
+    }
+  }
+
+  .second-footer {
+    background-color: $morado;
+    p {
+      color: grey;
+    }
+    .second-section {
+      padding: 30px;
+    }
+  }
+
 }
