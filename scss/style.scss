@@ -1,5 +1,7 @@
 @import 'partials/variable';
 
+// header
+
 .header {
   background-color: $morado;
 
@@ -20,7 +22,6 @@
   }
 
   header {
-    position: absolute;
     width: 100%;
 
     .first-content {
@@ -81,7 +82,9 @@
     font-size: 12px;
     text-transform: uppercase;
   }
-} // fin del header
+}
+
+// footer
 
 .footer {
 	text-align: center;
@@ -96,6 +99,7 @@
       }
       p {
         color: $mOscuro;
+        font-size: 14px;
       }
       .social-networks {
         margin-right: 40px;
@@ -116,10 +120,43 @@
     background-color: $morado;
     p {
       color: grey;
+      font-size: 14px;
     }
     .second-section {
       padding: 30px;
     }
   }
+}
 
+// service
+
+.services {
+  .container{
+    margin-top: 101px;
+    margin-bottom: 70px;
+
+    .serv-Sect {
+      text-align: center;
+     margin-bottom: 44px;
+      p {
+        color: grey;
+      }
+    }
+  }
+}
+
+// portfolio
+
+.portafolio {
+  .container {
+    top:0;
+  	margin-left:-15px;
+  	width:100%;
+  	height:100%;
+
+    .each {
+      margin-top: 1px;
+      float: left;
+    }
+  }
 }
